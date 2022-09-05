@@ -19,7 +19,7 @@ const makeGalleryEl = ({ url, alt }) => {
   const listEl = document.createElement('li');
   listEl.classList.add('gallery__list');
   const imgEl = document.createElement('img');
-  imgEl.classList.add('gallery__img');
+  // imgEl.classList.add('gallery__img');
   // imgEl.src = `${url}`;
   // imgEl.alt = `${alt}`;
   // imgEl.width = '600';
